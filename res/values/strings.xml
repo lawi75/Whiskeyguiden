@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Beverage -->
+    <string name="recommend_header">Whiskeytips via Min whiskeylista för Android</string>
+    
+    <!-- Add -->
+    <string name="add_whiskey_name">Lägg till whiskey</string>
+    <string name="manually_add_beverage">Lägg till whiskey manuellt</string>    
+    
+    <!-- Generic -->
+    <string name="app_name">Min whiskeylista</string>
+    <string name="modify_beer_name">Ändra whiskey</string>    
+    
+ 	<!-- BeerListActivity -->
+    <string name="sortOnType">Whiskeysort</string>
+    <string name="sortOnTypeSub">Sortera på whiskeysort</string>
+    
+    <string name="exist">Du har redan lagt till whiskey med nummer</string>
+    
+    <!-- Stats -->
+    <string name="statsNow">Det finns %1$s olika sorters whiskey i listan med ett snittbetyg på %2$s stjärnor</string>
+    
+    <!-- Whats new -->
+    <string name="versionHeads">Version 1.0</string>
+    <string name="versionMessages">Första versionen av Min Whiskeylista.</string>
+    
+</resources>
