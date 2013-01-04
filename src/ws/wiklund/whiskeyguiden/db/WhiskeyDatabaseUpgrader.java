@@ -5,8 +5,6 @@ import ws.wiklund.guides.model.BeverageType;
 import android.database.sqlite.SQLiteDatabase;
 
 public class WhiskeyDatabaseUpgrader extends DatabaseUpgrader {
-	//Available DB versions
-	static final int VERSION_1 = 1;
 
 	public WhiskeyDatabaseUpgrader(SQLiteDatabase db) {
 		super(db);
@@ -15,36 +13,17 @@ public class WhiskeyDatabaseUpgrader extends DatabaseUpgrader {
 	public int upgrade(int oldVersion, int newVersion) {
 		int version = -1;
 
-		/*switch (oldVersion) {
+		switch (oldVersion) {
 			case VERSION_1:
-				if(newVersion > VERSION_1) {
-					version = moveToVersion2();
-					Log.d(BeerDatabaseUpgrader.class.getName(), "Upgraded DB from version [" + oldVersion + "] to version [" + version + "]");
-					
-					if(version < newVersion) {
-						return upgrade(version, newVersion);
-					}
-					
-					return VERSION_2;
-				}
-				
-				break;				
 			case VERSION_2:
-				if(newVersion > VERSION_2) {
-					version = moveToVersion3();
-					Log.d(BeerDatabaseUpgrader.class.getName(), "Upgraded DB from version [" + oldVersion + "] to version [" + version + "]");
-					
-					if(version < newVersion) {
-						return upgrade(version, newVersion);
-					}
-					
-					return VERSION_3;
-				}
-				
-				break;				
+			case VERSION_3:
+			case VERSION_4:
+			case VERSION_5:
+			case VERSION_6:
+				return VERSION_7;
 			default:
 				break;
-		}*/
+		}
 
 		return version;
 	}

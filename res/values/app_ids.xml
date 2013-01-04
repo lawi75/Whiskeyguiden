@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="publisher_id">a14ff29be503e63</string>
-    <string name="facebookAppId">346110128812251</string>
-    <string name="play_url">market://details?id=ws.wiklund.beerguide</string>
+    <string name="publisher_id">a150e6b038c48df</string>
+    <string name="facebookAppId">489372891115337</string>
+    <string name="play_url">market://details?id=ws.wiklund.whiskeyguiden</string>
     
 </resources>
